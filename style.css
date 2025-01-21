@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+main{
+    height: 1775px;
+}
+.container {
+    width: 720px;
+    height: 1575px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 25px;
+}
+
+.box {
+    width: 625px;
+    margin: 45px auto;
+}
+
+.heroimg {
+    width: 625px;
+    /* background-color: red; */
+    height: 305px;
+    margin: 30px auto;
+}
+
+.heroimg img {
+    width: 625px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.herotitle {
+    margin: 15px 0;
+    font-size: 40px;
+    color: black;
+}
+
+.description {
+    font-size: 15px;
+}
+.ptime {
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 25px 0 0 0;
+    width: 625px;
+    padding: 30px;
+}
+.tdark{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 20px;
+}
+.dark{
+    display: inline;
+    font-weight: 800;
+}
+.ptime ul{
+    padding: 15px;
+}
+ul li{
+    list-style-position: inside;
+    line-height: 30px;
+}
+.btitle{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+hr{
+    margin: 30px auto;
+}
+ol li{
+    list-style-position: outside;
+    padding:10px 0 0 15px;
+}
+table {
+    border-spacing: 10px;
+    width: 100%;
+}
+td{
+    padding:0 0 0 5px ;
+}
